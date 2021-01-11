@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<title>::..Tarifario..::</title>
+			 <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+		<link href="css/css.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>	
+		<script src="js/jquery.cycle.all.js" type="text/javascript"></script>		
+		<script type="text/javascript">
+			$(document).ready(function() {
+			$('.slide').cycle({
+			fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="principal">		  
+			<div id="logo">
+				<img src="imagens/logo.png"/>
+			</div> 
+			<div id="telefone"></div>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="hotel.html">O Hotel</a></li>
+					<li><a href="acomodacao.html">Fotos</a></li>
+					<li><a href="tarifario.html">Tarifario</a></li>
+					<li><a href="localizacao.html">Localização</a></li>				
+					<li><a href="contato.html">Contato</a></li>
+				</ul>					  
+			</div>
+			<div id="submenu_2">		  		
+				<ul>
+					<li><a href="tarifario.html">Alta Temporada</a></li>
+					<hr class="hr_submenu"></hr>
+					<li><a href="baixatarifario.html">Baixa Temporada</a></li>
+					<hr class="hr_submenu"></hr>					
+					<div id="galeria_3">
+						<div class="slide">
+							<img src="imagens/carnaval.jpg" alt="" style="no-repeat"/>
+							<img src="imagens/reveillon.jpg" alt=""/>
+							<img src="imagens/pacote.jpg" alt=""/>
+						</div>
+					</div>
+				</ul>
+		    </div>
+			<div id="opacidade" >
+				<div id="consulta">
+					<h2>Consulte disponibilidade</h2>
+					<form class="form1">				 
+						<strong>Data de chegada:</strong><br />
+						<label><input class="data" type="text" name="nome" id="nome" /><br /></label>
+						<strong>Data de saida:</strong><br />
+						<label><input class="data" type="text" name="email" id="email" /></label><br />
+					</form>
+					<form class="form3">
+						<strong>N° de quartos:</strong> <br /> 
+						<label><input class="data" type="text" name="assunto" id="assunto" /></label>  <br />
+					</form>
+					<form  class="form1">
+						<strong>Nº de adultos:</strong>
+						<label> <br /><input  class="data" type="text" name="npessoas" id="npessoas" /><br /></label>
+						<strong>N° de crianças:</strong><br/>
+						<label><input class="data" type="text" name="ncriancas" id="ncriancas" /><br /></label>
+					</form>					
+					<form class="form4">
+						<label><input class="enviar" type="submit" name="button" value="Consultar" /></label></form>
+				</div>
+				<hr id="hr_tarif"></hr>
+				<div id="tarifario">
+					<table>
+					<th align="center"  colspan="3" BGCOLOR="#E6CC80">Tabela de Preços Baixa Temporada  02/04 á 30/11</th>
+						<tr>
+							<th height="70px">Acomodações</th>
+							<th>valor de 5 diaria</th>
+							<th>6 diarias ou mais</th>
+							
+						</tr>
+						<tr align="center">
+							<td>Quarto casal</td>
+							<td>R$100,00</td>
+							<td>R$100,00</td>
+						</tr>
+						<tr align="center">
+							<td>Quarto  casal, com café da </br>manha, jante e almoço</td>
+							<td>R$100,00</td>
+							<td>R$100,00</td>
+						</tr>						 
+						<tr align="center">
+							<td> Quarto e Sala </br>(3 ou 4 pessoas)</td>
+							<td>R$100,00</td>
+							<td>R$100,00</td>
+						</tr> 
+						<tr align="center">
+							<td> Quarto e Sala (3 ou 4 pessoas )</br> com café da manha, janta e almoço.</td>
+							<td>R$100,00</td>
+							<td>R$100,00</td>
+						</tr>
+						<th align="center"  colspan="3" BGCOLOR="#E6CC80"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit tempus odio eget fringilla. Aenean tincidunt placerat nunc venenatis eleifend. Donec in scelerisque urna. Maecenas accumsan tellus id erat pharetra suscipit. Nullam ut nisi at diam.</p></th>	
+					</table>
+				</div>						
+			</div>
+			<div id="listra"></div>
+		</div>
+		<div id="rodape">
+		<p>© 2012 Flipper Hotel - Todos os Direitos Reservados!<br /> Endereço: R. Elesbão Ramos, 88 Barra da Lagoa Florianópolis - SC CEP: 88061-360 </p>
+		
+		</div>
+	</body>
+</html>

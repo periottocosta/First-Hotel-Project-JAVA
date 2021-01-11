@@ -1,0 +1,43 @@
+#geral {
+	width:900px;
+	height:auto;
+	margin:auto;
+	padding:0px;	
+}
+
+#cabeca{
+	height:150px;
+	background-color:#FFC;
+	clear:both;
+}
+
+#menu {
+	height:35px;
+	width:100%;
+	background:#ccc;		
+}
+
+#menu ul {	
+	padding:0px;	
+}
+
+#menu ul li {
+	display:inline;	
+	margin-left:15px;
+}
+
+#menu ul li a{
+	text-decoration:none;
+	color:#666666;
+}
+
+#conteudo {
+	height:auto;
+	clear:both;
+}
+
+#galeria_g {
+	heigh:300px;
+	width:900px;
+	background-color:#00C;
+}

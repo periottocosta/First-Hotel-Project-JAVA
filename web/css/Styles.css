@@ -1,0 +1,549 @@
+/* 
+    Document   : Styles
+    Created on : 26/02/2013, 20:32:17
+    Author     : User
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+*{
+    margin:0px ;
+    padding:0px;
+}
+body{
+    background-image:url('../imagens/login-whisp.png');
+    background-repeat: no-repeat ;
+    background-size: 101%;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+    width: 100%;
+
+}
+#Principal{
+
+
+    /*    background: #cecece;*/
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Conteudo{
+
+    width: 700px;
+    height:auto;
+    margin: auto;
+    padding-top: 10px;
+}
+/*Pagina de Login*/
+#logo{
+
+    width: 310px;
+    height: 200px;
+    background-image:url('../imagens/logo.png');
+    margin: auto;
+    margin-top: 50px;
+}
+#login{
+    background-color: rgb(234, 234, 234);
+    border-radius: 0px 0px 5px 5px;
+    border-top: 1px solid rgb(255, 255, 255);
+    height: 260px;
+    width: 330px;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(76, 76, 76);
+    font-size: 20px;
+    padding-right: 5px;
+    margin: auto;    
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+#loginSub{
+    border-radius: 5px 5px 0px 0px;
+    height: 65px;
+    padding: 10px 0px 0px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(229, 229, 229) 0px, rgb(212, 212, 212) 100%) repeat scroll 0% 0% transparent;
+    border-width: 0px 0px 1px medium;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color rgb(161, 161, 161);
+    width: 337px;
+    margin: auto;
+    font-size: 40px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+#formLogin{
+    height:200px;;
+    width: 300px;
+    margin: auto;
+    padding: 5px 0px 0px 0px;
+    margin: 0px 10px 0px 30px;
+    /*    background: #fff;*/
+}
+#butonLogin{
+    width: 70px;
+    height: 40px;
+    padding: 0px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+
+}
+.inputLogin{
+    border-radius: 5px 5px 5px 5px;
+    margin-top:0px;
+    margin-bottom: 5px;
+    padding: 0px 10px 0px 10px;
+    width: 170px;
+    height: 30px;
+    float: right;
+}
+#inpnt_login{
+    width: 230px;
+    height: 40px;
+    margin-top:5px;
+    /*    background: #fff;*/
+    background-image: url('../imagens/usuario.png'); 
+    background-repeat: no-repeat ;
+    background-size: 30px;
+    /*    background-size: 100%;*/
+}
+#inpnt_login2{
+    width: 230px;
+    height: 40px;
+    margin-top:5px;
+
+    background-image: url('../imagens/cadeado.ico'); 
+    background-repeat: no-repeat ;
+    background-size: 30px;
+
+}
+/*Fim da Pagina Login*/
+
+/*Cadastro de funcionario*/
+#cadastros{
+
+    height: auto;
+    width: 700px;
+    /*   // background: #cecece;*/
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 0px 0px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+#formCad2{
+    padding: 0px 0px 0px 90px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+    width: 200px;
+    height: auto;
+
+    font-family: arial, helvetica, serif;
+}
+#formCad{
+    float: left;
+    width: 300px;
+    height: auto;
+
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    font-family: arial, helvetica, serif;
+}
+.cad{
+    font-family: arial, helvetica, serif;
+    width: 150px ;
+    height: 30px;
+    margin: 10px 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+#button{
+    margin-top: 50px;
+    margin-left: 25px; 
+    width: 100px;
+    height: 50px;
+    font-family: arial, helvetica, serif;
+}
+/*Fim cad func*/
+
+/*cadastro de quarto*/
+
+#cadPequeno{
+    margin: auto;
+    height: auto;
+    width: 250px;
+    font-family: arial, helvetica, serif;
+    /*    background:#fff ;*/
+    padding: 10px 0px 0px 20px;
+}
+#pequenocad{
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    width: 700px;
+    height: auto;
+    margin: 15px 0px 15px 0px;
+    padding: 0px 0px 0px 0px;
+    /*    background-color: rgb(234, 234, 234);*/
+}
+#pequenocad .salvarimg{
+    width:75px;
+    height:56px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left:120px;
+    background-image: url('../imagens/salvar.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:13px 13px 13px 13px;
+    background-size: 70px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+#pequenocad .salvarimg:hover{    
+    width:75px;
+    height:56px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left:120px;
+    background-image: url('../imagens/salvarHover.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:13px 13px 13px 13px;
+    background-size: 70px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+textarea{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+/*pesquisas*/
+
+#faserPesquisa{
+    font-family: arial, helvetica, serif;
+
+}
+#pesqimg{
+    width:50px;
+    height: 35px;
+    background-image: url('../imagens/pesquisa.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:10px 10px 10px 10px;
+    background-size: 47px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+#pesqimg:hover{
+    width:50px;
+    height: 35px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    background-image: url('../imagens/pesqHover.png');
+    background-size: 47px;
+    border-radius:10px 10px 10px 10px;
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+
+}
+#formCad2 .salvarimg{    
+    width:75px;
+    height:56px;
+    margin-top: 80px;
+    background-image: url('../imagens/salvar.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:13px 13px 13px 13px;
+    background-size: 70px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+#formCad2 .salvarimg:hover{    
+    width:75px;
+    height:56px;
+    margin-top: 80px;
+    background-image: url('../imagens/salvarHover.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:13px 13px 13px 13px;
+    background-size: 70px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+
+}
+#rotornoPesq{
+    width: 700px;
+    height: auto;
+    margin-top: 15px;
+    padding: 0px;
+}
+.legendPesq{
+
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0px 30px 0px;
+    padding: 0px;
+}
+.labelPesq{
+    padding: 0px 0px 0px 30px;
+    margin: 0px;
+}
+
+/*menu*/
+
+.formataP, a{    
+    color: #000;
+    text-decoration: none;
+    display: inline;   
+    margin:0px 3px 10px 0px; 
+    font-size: 14px;
+}
+.formataP, a:hover{
+    color: #ccc;
+}
+#usuario{
+
+    width: 300px;
+    height: 60px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+/*Tabela*/
+td{
+    padding: 0px;
+    border-style: dotted;
+    border-width: 1px;
+    margin: 0px;
+    font-size: 14px;
+}
+table{
+    font-family: arial, helvetica, serif;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #fff;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+#rotornoPesq li{   
+    margin: 2px;
+    position: relative;
+    padding: 4px 14px;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+fieldset{
+    border-style: dotted;
+    border-width: 1px;
+}
+legend{
+    font-family: arial, helvetica, serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#cadReserva{
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: arial, helvetica, serif;
+    padding: 0px 0px 0px 60px;
+    width: 200px;
+    height: auto;
+}
+.bottomPecCad{
+    font-family: arial, helvetica, serif;
+    font-size: 15px;
+    margin: 8px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100px;
+    height: 35px;
+}
+select{
+    width: 150px;
+    margin: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 0px;
+    height: 30px;
+}
+.cadCompleto{
+    margin: 5px 0px 0px 0px;
+    padding: 5px 0px 5px 5px;
+}
+
+.bottonExcluir{
+    width:38px;
+    height:35px;
+    margin: 0px 0px 0px 0px;
+    background-image: url('../imagens/excliur.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:8px 8px 7px 7px;
+    background-size: 33px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+
+}
+.bottonExcluir:hover{
+    width:38px;
+    height:35px;
+    margin: 0px 0px 0px 0px;
+    background-image: url('../imagens/excliuirHover.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:8px 8px 7px 7px;
+    background-size: 33px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+
+}
+.bottonAlterar{
+    width:38px;
+    height:35px;
+    margin: 0px 0px 0px 0px;
+    background-image: url('../imagens/alterar.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:8px 8px 7px 7px;
+    background-size: 33px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+.bottonAlterar:hover{
+    width:38px;
+    height:35px;
+    margin: 0px 0px 0px 0px;
+    background-image: url('../imagens/alterarHover.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:8px 8px 7px 7px;
+    background-size: 33px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.bottonVerMais{    
+    width:38px;
+    height:35px;
+    margin: 0px 0px 0px 0px;
+    background-image: url('../imagens/cadMais.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:8px 8px 7px 7px;
+    background-size: 33px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+.bottonVerMais:hover{    
+    width:38px;
+    height:35px;
+    margin: 0px 0px 0px 0px;
+    background-image: url('../imagens/cadMaisHover.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:8px 8px 7px 7px;
+    background-size: 33px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+.bottomVoltar{
+    width:61px;
+    height:60px;
+    margin-top: 80px;
+    background-image: url('../imagens/voltar.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:13px 13px 13px 13px;
+    background-size: 57px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+.bottomVoltar:hover{
+    width:61px;
+    height:60px;
+    margin-top: 80px;
+    background-image: url('../imagens/voltarHouver.png');
+    padding: 2px 2px 0px 5px;
+    background-repeat: no-repeat ;
+    border-radius:13px 13px 13px 13px;
+    background-size: 57px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.error{    
+    border: 1px solid;
+    margin: 10px 0px 0px 5px;
+    height: 30px;
+    padding:5px 0px 5px 5px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('../imagens/erro.png');
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    font-family: arial, helvetica, serif;
+    border-radius: 10px 10px 10px 10px;
+}
+.ppf{
+    float: left;
+    margin: 0px 0px 0px 50px;
+}
+#menss{
+    width: 330px;
+    height: 50px;
+    padding: 5px 5px 0px 0px;
+    margin: 0px;
+}
+.alerta{
+    border: 1px solid;
+    margin: 10px 0px 0px 5px;
+    height: 30px;
+    padding:5px 0px 5px 5px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('../imagens/alerta.png');
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    font-family: arial, helvetica, serif;
+    border-radius: 10px 10px 10px 10px;
+}
